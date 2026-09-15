@@ -7,6 +7,7 @@ gold/*
 outputs/*
 !outputs/.gitkeep
 !outputs/*.json
+!outputs/*.yaml
 !outputs/model_clip_01.txt
 !outputs/model_bytetrack_clip_01.txt
 !outputs/model_reid_clip_01.txt
