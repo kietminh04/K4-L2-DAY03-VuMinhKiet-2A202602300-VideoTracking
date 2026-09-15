@@ -1,0 +1,17 @@
+{
+  "model_name": "yolo11n.pt",
+  "ultralytics_version": "8.4.150",
+  "torch_version": "2.14.0+cpu",
+  "device": "cpu",
+  "conf_threshold": 0.25,
+  "iou_threshold": 0.7,
+  "image_size": 960,
+  "classes": [
+    2,
+    5,
+    7
+  ],
+  "control_tracker": "bytetrack.yaml",
+  "treatment_tracker": "configs/trackers/botsort-reid.yaml",
+  "clip": "data/clips/clip_01"
+}
